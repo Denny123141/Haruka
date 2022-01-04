@@ -41,7 +41,7 @@
 
 Click the deploy icon below !
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Denny123141/Haruka)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Denny123141/Haruka)
 
 ```bash
  > heroku/nodejs

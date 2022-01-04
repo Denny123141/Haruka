@@ -1,7 +1,21 @@
 {
-  "name": "Haruka-Bot",
-  "description": "WhatsApp Bot Using WhatsApp Api Library Created By ZeeoneOfc",
-  "repository": "https://github.com/zeeoneofc/Haruka",
-  "logo": "https://github.com/zeeoneofc/Haruka/blob/master/settings/haruka.jpg",
-  "keywords": ["Haruka", "Bot WhatsApp","Heroku bot"]
+  "name": "Bot WhatsApp",
+  "description": "Very simple bot whatsapp with the javascript.",
+  "repository": "https://github.com/Denny123141/Haruka",
+  "logo": "https://github.com/Denny123141/Haruka/blob/master/settings/thumbnail_2.jpg",
+  "keywords": [
+    "node",
+    "WhatsApp",
+    "bot"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },{
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },{
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
 }
